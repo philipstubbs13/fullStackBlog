@@ -1,7 +1,7 @@
 // Import react.
 import React, { Component } from 'react';
 // Import components from rebass
-import { Panel, Footer, Heading } from 'rebass'
+import { Panel, Footer, Heading, Text } from 'rebass'
 
 class BlogFooter extends Component {
   render() {
@@ -12,9 +12,9 @@ class BlogFooter extends Component {
           children='fullStackBlog'
           color='white'
         />
-        <p>
+        <Text fontSize={20} pt={2} color='white'>
           &copy; Copyright 2018 Phil Stubbs
-        </p>
+        </Text>
       </Panel.Footer>
     );
   }
