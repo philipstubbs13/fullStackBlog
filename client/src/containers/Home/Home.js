@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 import { Container, Column, Row, Header, Panel, Subhead, Box, Heading, Divider, Text } from 'rebass';
 // Import AboutAuthor component
 import AboutAuthor from '../../components/AboutAuthor';
+// Import AboutBlog component
+import AboutBlog from '../../components/AboutBlog';
 
 
 class Home extends Component {
@@ -73,6 +75,7 @@ class Home extends Component {
 
             <Column width={1 / 3 }>
               <AboutAuthor />
+              <AboutBlog />
             </Column>
           </Row>
         </Container>

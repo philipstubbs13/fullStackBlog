@@ -6,7 +6,7 @@ import { Panel, Footer, Heading, Text, Container } from 'rebass'
 class BlogFooter extends Component {
   render() {
     return (
-      <Panel.Footer bg='#B7E0E5' py={5} className="footer">
+      <Panel.Footer bg='#B7E0E5' py={4} className="footer">
         <Container>
           <Heading
             is='h2'

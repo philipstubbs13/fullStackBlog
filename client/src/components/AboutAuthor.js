@@ -1,18 +1,21 @@
 // Importing React since we are using React.
 import React, { Component } from 'react';
 // Importing UI components from rebass.
-import { Sticky, Heading } from 'rebass';
+import { Box, Heading, Text } from 'rebass';
 
 
 class AboutAuthor extends Component {
   render() {
     return [
-      <Sticky mt={4} top={0} right={0} bottom={0}>
+      <Box mt={4}>
         <Heading
           is='h3'
          children="Hi there, I'm Phil"
         />
-      </Sticky>
+        <Text fontSize={18} pt={2}>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more - or - less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+        </Text>
+      </Box>
     ];
   }
 }
