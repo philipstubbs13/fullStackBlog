@@ -11,7 +11,7 @@ class Home extends Component {
     return [
       <div className="main-content-section">
         <Container>
-          <Row pt={5}>
+          <Row pt={5} mb="2">
             <Column width={1}>
             <Heading
               is='h1'
@@ -19,7 +19,7 @@ class Home extends Component {
             />
             </Column>
           </Row>
-          <Row mt={3}>
+          <Row>
             <Column width={ 2 / 3 }>
                 <Box mt={4}>
                   <Heading

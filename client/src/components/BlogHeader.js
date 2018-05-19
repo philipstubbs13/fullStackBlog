@@ -1,15 +1,15 @@
 // Import react.
 import React, { Component } from 'react';
 // Import components from rebass
-import { Toolbar, NavLink, Container } from 'rebass'
+import { Toolbar, NavLink, Text, Container } from 'rebass'
 
 class BlogHeader extends Component {
   render() {
     return (
-      <Toolbar bg='ghostwhite' className="navbar">
+      <Toolbar bg='#B7E0E5' className="navbar">
           <Container>
-          <NavLink fontSize={30} py={4} color="black">
-            fullStackBlog
+          <NavLink fontSize={40} py={4} color="black">
+            fullStackBlog by Phil
           </NavLink>
         </Container>
       </Toolbar>

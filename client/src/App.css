@@ -13,5 +13,10 @@
   }
 
   .navbar {
-    border-bottom: 7px solid dodgerblue;
+    border-bottom: 7px solid #73749E;
   }
+
+   .footer {
+     border-top: 7px solid #73749E;
+   }
+

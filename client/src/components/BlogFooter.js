@@ -1,20 +1,22 @@
 // Import react.
 import React, { Component } from 'react';
 // Import components from rebass
-import { Panel, Footer, Heading, Text } from 'rebass'
+import { Panel, Footer, Heading, Text, Container } from 'rebass'
 
 class BlogFooter extends Component {
   render() {
     return (
-      <Panel.Footer bg='dodgerblue' py={5}>
-        <Heading
-          is='h2'
-          children='fullStackBlog'
-          color='white'
-        />
-        <Text fontSize={20} pt={2} color='white'>
-          &copy; Copyright 2018 Phil Stubbs
-        </Text>
+      <Panel.Footer bg='#B7E0E5' py={5} className="footer">
+        <Container>
+          <Heading
+            is='h2'
+            children='fullStackBlog'
+            color='black'
+          />
+          <Text fontSize={20} pt={2} color='black'>
+            &copy; Copyright 2018 Phil Stubbs
+          </Text>
+        </Container>
       </Panel.Footer>
     );
   }
