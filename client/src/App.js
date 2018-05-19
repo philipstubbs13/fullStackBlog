@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+// Importing React Router to add page routes.
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import app components
 import BlogHeader from './components/BlogHeader.js';
 import BlogFooter from './components/BlogFooter.js';
+// Importing Home page component.
+import Home from './containers/Home';
 // import App styling
 import './App.css';
 import { Provider } from 'rebass';
@@ -11,9 +15,13 @@ class App extends Component {
     return (
       <Provider>
         <BlogHeader />
-        <p className="main-content-section">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Router>
+          <div>
+            <Switch>
+              <Route exact path="/" component={Home} />
+            </Switch>
+          </div>
+        </Router>
         <BlogFooter />
       </Provider>
     );
