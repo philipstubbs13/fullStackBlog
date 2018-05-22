@@ -23,54 +23,23 @@ class Home extends Component {
           </Row>
           <Row>
             <Column width={ 2 / 3 }>
-                <Box mt={4}>
-                  <Heading
-                    is='h3'
-                    children='Blog post title 1'
-                  />
-                  <Text fontSize={20} pt={2}>
-                    May 19, 2018
-                  </Text>
-                  <Text fontSize={18} pt={2}>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </Text>
-                </Box>
-                <Box mt={4}>
-                  <Heading
-                    is='h3'
-                    children='Blog post title 2'
-                  />
-                  <Text fontSize={20} pt={2}>
-                    May 18, 2018
-                  </Text>
-                  <Text fontSize={18} pt={2}>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </Text>
-                </Box>
-                <Box mt={4}>
-                  <Heading
-                    is='h3'
-                    children='Blog post title 1'
-                  />
-                  <Text fontSize={20} pt={2}>
-                    May 17, 2018
-                  </Text>
-                  <Text fontSize={18} pt={2}>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </Text>
-                </Box>
-                <Box mt={4}>
-                  <Heading
-                    is='h3'
-                    children='Blog post title 1'
-                  />
-                  <Text fontSize={20} pt={2}>
-                    May 16, 2018
-                  </Text>
-                  <Text fontSize={18} pt={2}>
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                  </Text>
-                </Box>
+                <Panel color='black' className="blogPostCard">
+                  <Panel.Header
+                    color='white'
+                    bg='#001F54'
+                    fontSize={28}
+                    px={4}>
+                    Blog post title 1
+                  </Panel.Header>
+                  <Box mx={4} my={2}>
+                    <Text fontSize={20} pt={2}>
+                      May 19, 2018
+                    </Text>
+                    <Text fontSize={18} pt={2}>
+                      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                    </Text>
+                  </Box>             
+                </Panel>       
             </Column>
 
             <Column width={1 / 3 }>

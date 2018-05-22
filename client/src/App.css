@@ -1,3 +1,4 @@
+  /*Coolors colors: https://coolors.co/0a1128-001f54-034078-1282a2-fefcfb*/
   /*Sticky footer*/
 
   .Site {
@@ -10,17 +11,22 @@
     flex: 1;
     min-height: 100vh;
     margin-bottom: 0px;
+    background-color: #1282A2;
   }
 
   .navbar {
-    border-bottom: 7px solid #73749E;
+    border-bottom: 7px solid #0A1128;
   }
 
    .footer {
-     border-top: 7px solid #73749E;
+     border-top: 7px solid #0A1128;
    }
 
    .aboutBlog {
      margin-top: 10px;
+   }
+
+   .blogPostCard {
+     border: 1px solid #0A1128;
    }
 
