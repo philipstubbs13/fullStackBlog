@@ -5,8 +5,8 @@ const bodyParser = require('body-parser');
 // const routes = require('./routes');
 
 
-// Server will use port 3001.
-const PORT = process.env.PORT || 3001;
+// Server will use port 4000.
+const PORT = process.env.PORT || 4000;
 // Yes, the app uses express.
 const app = express();
 

@@ -10,7 +10,7 @@ class BlogFooter extends Component {
         <Container>
           <Heading
             is='h2'
-            children='fullStackBlog'
+            children='Insomniac Coder'
             color='black'
           />
           <Text fontSize={20} pt={2} color='black'>

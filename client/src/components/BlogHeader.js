@@ -9,7 +9,7 @@ class BlogHeader extends Component {
       <Toolbar bg='#B7E0E5' className="navbar">
           <Container>
           <NavLink fontSize={40} py={4} color="black">
-            fullStackBlog by Phil
+             Insomniac Coder
           </NavLink>
         </Container>
       </Toolbar>
