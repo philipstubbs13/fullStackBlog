@@ -1,20 +1,22 @@
+// import React since we are using React.
 import React, { Component } from 'react';
 // Importing React Router to add page routes.
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import app components
-import BlogHeader from './components/BlogHeader.js';
+// import top navigation bar component
+import NavAppBar from './components/AppBar';
+// import footer component.
 import BlogFooter from './components/BlogFooter.js';
 // Importing Home page component.
 import Home from './containers/Home';
 // import App styling
 import './App.css';
-import { Provider } from 'rebass';
+import { Provider, Container } from 'rebass';
 
 class App extends Component {
   render() {
     return (
       <Provider>
-        <BlogHeader />
+        <NavAppBar />
         <Router>
           <div>
             <Switch>
