@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 // import top navigation bar component
 import NavAppBar from './components/AppBar';
 // import footer component.
-import BlogFooter from './components/BlogFooter.js';
+import Footer from './components/Footer';
 // Importing Home page component.
 import Home from './containers/Home';
 // import App styling
@@ -24,7 +24,7 @@ class App extends Component {
             </Switch>
           </div>
         </Router>
-        <BlogFooter />
+        <Footer />
       </Provider>
     );
   }
