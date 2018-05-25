@@ -15,7 +15,6 @@ class Home extends Component {
       <div className="main-content-section" style={{ padding: 70 }}>
         <Grid container spacing={24} mx={4}>
           <Grid item xs={12} sm={12} md={8}>
-            <AboutAuthor />
           </Grid>
           <Grid item xs={12} sm={12} md={4}>
             <AboutAuthor />
